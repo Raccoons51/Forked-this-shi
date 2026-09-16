@@ -15,6 +15,8 @@ dependencies {
     implementation 'org.firstinspires.ftc:FtcCommon:11.2.1'
     implementation 'org.firstinspires.ftc:Vision:11.2.1'
     implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'dev.nextftc:ftc:1.1.0'
+    implementation 'dev.nextftc:hardware:1.1.0'
 
     implementation 'com.pedropathing:revhub:3.0.0'
     implementation 'com.pedropathing:tuning:1.0.0'
