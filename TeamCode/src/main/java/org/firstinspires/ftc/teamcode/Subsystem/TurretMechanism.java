@@ -21,7 +21,7 @@ public class TurretMechanism {
 
     private final ElapsedTime timer = new ElapsedTime();
 
-    private void init(HardwareMap hwMap){
+    public void init(HardwareMap hwMap){
         turret = hwMap.get(DcMotorEx.class, "turret");
         turret.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
     }
@@ -75,6 +75,7 @@ public class TurretMechanism {
 
         turret.setPower(power);
         lastError = error;
+
 
     }
 
