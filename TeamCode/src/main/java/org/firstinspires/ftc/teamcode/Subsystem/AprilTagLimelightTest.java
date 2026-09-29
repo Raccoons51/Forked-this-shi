@@ -21,7 +21,7 @@ import com.qualcomm.robotcore.hardware.IMU;
 import org.firstinspires.ftc.robotcore.external.Telemetry;
 import org.firstinspires.ftc.robotcore.external.navigation.Pose3D;
 import org.firstinspires.ftc.robotcore.external.navigation.YawPitchRollAngles;
-
+import org.openftc.apriltag.AprilTagDetection;
 
 
 public class AprilTagLimelightTest extends OpMode {
@@ -60,6 +60,14 @@ public class AprilTagLimelightTest extends OpMode {
     }
 
     public void init(HardwareMap hardwareMap, Telemetry telemetry) {
+
+    }
+
+    public AprilTagDetection getTagBySpecificId(int i) {
+                return null;
+    }
+
+    public void update() {
 
     }
 }

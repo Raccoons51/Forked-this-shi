@@ -30,7 +30,7 @@ public class TurretMechanism {
         kP = newkP;
     }
 
-    public double getkP(){
+    public double getkP (){
         return kP;
     }
     public void setkD(double newkD){
@@ -45,7 +45,7 @@ public class TurretMechanism {
         timer.reset();
     }
 
-    public void update(AprilTagDetection curID){
+    public void update (AprilTagDetection curID){
         double deltaTime = timer.seconds();
         timer.reset();
 
@@ -79,4 +79,6 @@ public class TurretMechanism {
 
     }
 
+    public void update(org.openftc.apriltag.AprilTagDetection id36) {
+    }
 }
